@@ -1,12 +1,11 @@
 {
-  "name": "scout-bot",
+  "name": "rolemanagement",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon --exec \"node register-commands.js && node index.js\""
-  }
-  ,
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
