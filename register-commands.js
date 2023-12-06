@@ -4,11 +4,11 @@ const { REST, Routes, ApplicationCommandOptionType } = require('discord.js');
 const commands = [
     {
       name: 'addcub',
-      description: 'Add Cub role to a user',
+      description: 'Gives the selected user the Basic Cub roles',
       options: [
         {
           name: 'user',
-          description: 'The user to add the Cub role to',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -16,35 +16,23 @@ const commands = [
     },
     {
       name: 'removeuser',
-      description: 'Remove Cub role from a user',
+      description: 'Removes all roles from a user and gives them the Unknown role',
       options: [
         {
           name: 'user',
-          description: 'The user to remove the Cub role from',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
       ],
     },
     {
-      name: 'cubtoscout',
-      description: 'Convert user from Cub to Scout',
+      name: 'cubtosapl',
+      description: 'Gives the selected user the Cub APL Roles',
       options: [
         {
           name: 'user',
-          description: 'The user to convert from Cub to Scout',
-          type: 6,
-          required: true,
-        },
-      ],
-    },
-    {
-      name: 'cubtoapl',
-      description: 'Convert user from Cub to APL',
-      options: [
-        {
-          name: 'user',
-          description: 'The user to convert from Cub to APL',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -52,11 +40,11 @@ const commands = [
     },
     {
       name: 'cubtopl',
-      description: 'Convert user from Cub to PL',
+      description: 'Gives the selected user the Cub PL Roles',
       options: [
         {
           name: 'user',
-          description: 'The user to convert from Cub to PL',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -64,23 +52,11 @@ const commands = [
     },
     {
       name: 'addscout',
-      description: 'Add Scout role to a user',
+      description: 'Gives the selected user the Basic Scout roles',
       options: [
         {
           name: 'user',
-          description: 'The user to add the Scout role to',
-          type: 6,
-          required: true,
-        },
-      ],
-    },
-    {
-      name: 'scouttoventurer',
-      description: 'Convert user from Scout to Venturer',
-      options: [
-        {
-          name: 'user',
-          description: 'The user to convert from Scout to Venturer',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -88,11 +64,11 @@ const commands = [
     },
     {
       name: 'scouttoapl',
-      description: 'Convert user from Scout to APL',
+      description: 'Gives the selected user the Scout APL Roles',
       options: [
         {
           name: 'user',
-          description: 'The user to convert from Scout to APL',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -100,11 +76,11 @@ const commands = [
     },
     {
       name: 'scouttopl',
-      description: 'Convert user from Scout to PL',
+      description: 'Gives the selected user the Scout PL Roles',
       options: [
         {
           name: 'user',
-          description: 'The user to convert from Scout to PL',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -112,11 +88,11 @@ const commands = [
     },
     {
       name: 'addventurer',
-      description: 'Add Venturer role to a user',
+      description: 'Gives the selected user the Basic Venturer Roles',
       options: [
         {
           name: 'user',
-          description: 'The user to add the Venturer role to',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -124,11 +100,11 @@ const commands = [
     },
     {
       name: 'venturertouc',
-      description: 'Convert user from Venturer to UC',
+      description: 'Gives the selected user the Venturer UC Roles',
       options: [
         {
           name: 'user',
-          description: 'The user to convert from Venturer to UC',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -136,11 +112,11 @@ const commands = [
     },
     {
       name: 'venturertoaul',
-      description: 'Convert user from Venturer to AUL',
+      description: 'Gives the selected user the Venturer AUL Roles',
       options: [
         {
           name: 'user',
-          description: 'The user to convert from Venturer to AUL',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },
@@ -148,11 +124,11 @@ const commands = [
     },
     {
       name: 'venturertoul',
-      description: 'Convert user from Venturer to UL',
+      description: 'Gives the selected user the Venturer UL Roles',
       options: [
         {
           name: 'user',
-          description: 'The user to convert from Venturer to UL',
+          description: 'Please select a user',
           type: 6,
           required: true,
         },

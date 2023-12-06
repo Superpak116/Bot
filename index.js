@@ -43,10 +43,6 @@ client.on('interactionCreate', async (interaction) => {
       handleRoleUpdate(interaction, '1179935988882096188');
     }
   
-    if (commandName === 'cubtoscout') {
-      handleRoleUpdate(interaction, '1180323890401136682', '1149951272468885504');
-    }
-  
     if (commandName === 'cubtoapl') {
       handleRoleUpdate(interaction, '1180323893857239131 ', '1149951272468885504', '1180323913914384457', '1149951153166102599');
     }
@@ -57,10 +53,6 @@ client.on('interactionCreate', async (interaction) => {
   
     if (commandName === 'addscout') {
       handleRoleUpdate(interaction, '1180323890401136682', '1149951272468885504');
-    }
-  
-    if (commandName === 'scouttoventurer') {
-      handleRoleUpdate(interaction, '1180322973232668722', '1149951272468885504');
     }
   
     if (commandName === 'scouttoapl') {
@@ -95,7 +87,7 @@ async function handleRoleUpdate(interaction, ...rolesToAdd) {
       return;
     }
   
-    const targetUser = interaction.options.getUser('user'); // Corrected line
+    const targetUser = interaction.options.getUser('user');
     if (!targetUser) {
       await interaction.reply('Please mention a user to update roles.');
       return;
