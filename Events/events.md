@@ -1,0 +1,1 @@
+Events is a Section of the 1st Balmain Scout Bot that is incharge of putting all progamming events from S|T and other scout websites onto discord events that is mainly for 1st Balmain (If it is a public thing on something like Scouts Events it will not be published due to it being to broad. Unless the event is only for 1st Balmain)

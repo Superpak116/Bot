@@ -1,0 +1,1 @@
+Moderation is a Section of the 1st Balmain Scout Bot that is incharge of moderation everything inside of the discord. So it deals with warns, timeouts, kicks, bans, and automated punishments.

@@ -1,0 +1,1 @@
+Embeds is a Section of the 1st Balmain Scout Bot that is incharge of making and places all embeds into the correct spots in the discord.

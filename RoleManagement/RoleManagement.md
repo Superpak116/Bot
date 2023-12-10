@@ -1,1 +1,1 @@
-testing
+RoleManagement is a Section of the 1st Balmain Scout Bot that is incharge of managing all roles inside of the Discord.
