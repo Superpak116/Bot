@@ -1,13 +1,13 @@
 {
   "name": "rolemanagement",
   "version": "1.0.0",
-  "description": "",
+  "description": "RoleManagement is a Section of the 1st Balmain Scout Bot that is incharge of managing all roles inside of the Discord.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec \"node register-commands.js && node index.js\""
   },
   "keywords": [],
-  "author": "",
+  "author": "James Poulos",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.7.1",

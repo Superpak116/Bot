@@ -1,1 +1,1 @@
-Linking is a Section of the 1st Balmain Scout Bot that is incharge of making sure that everything from S|T, Events (Other bot and online website), and other scout websites are all linked to the discord so all information can be found on discord and for the information to be up to date
+Linking is a Section of the 1st Balmain Scout Bot that is incharge of making sure that everything from S|T, Events (Other bot and online website), and other scout websites are all linked to the discord so all information can be found on discord and for the information to be up to date.

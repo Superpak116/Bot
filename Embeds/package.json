@@ -1,0 +1,12 @@
+{
+  "name": "embeds",
+  "version": "1.0.0",
+  "description": "Embeds is a Section of the 1st Balmain Scout Bot that is incharge of making and places all embeds into the correct spots in the discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "James Poulos",
+  "license": "ISC"
+}
